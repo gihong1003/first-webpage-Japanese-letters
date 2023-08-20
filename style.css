@@ -1,18 +1,19 @@
-p{
-    text-align: center;
+body{
+    margin: 0;
 }
-#title{
-
+.box{
+    width: 100px;
+    height: 100px;
 }
-.box#title{
-color: blue;
+.red-box{
+    background-color: red;
 }
-section div{
-
+.green-box{
+    background-color: green;
+    position:absolute;
+    left: 100px;
+    top: 100px;
 }
-label+input{
-
-}
-a[href="https://www.naver.com"] span{
-
+.blue-box{
+    background-color: blue;
 }
