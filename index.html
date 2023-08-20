@@ -7,59 +7,40 @@
         <title>My First Web Page!</title>
     </head>
     <body>
-        <form>
+        <h1>TO. 남편</h1>
+        <p>
+            여보 오늘 급하게 먼저 출근해야 해서 인사도 못 하고 먼저 나가요~
+        </p>
+
+        <form action="#">
             <fieldset>
-                <legend>좋아하는 과일</legend>
-                <input type="checkbox" id="banana" name="banana" value="banana">
-                <label for="banana">banana</label><br>
-                <input type="checkbox" id="apple" name="apple" value="apple" checked>
-                <label for="apple">apple</label><br>
+                <legend>소셜 로그인</legend>
+                <button type="button">Log in with Google</button><br>
+                
             </fieldset>
             <fieldset>
-                <legend>개인정보</legend>
-                <input type="tel" placeholder="전화번호를 입력해 주세요.">
-                <button type="submit">제출</button>
-                <button type="reset">초기화</button>
+                <legend>일반 로그인</legend>
+                <label for="username">
+                    <input type="text" id="username" name="username" placeholder="Username">
+                </label><br>
+                <label for="password">
+                    <input type="password" id="password" name="password" placeholder="password">
+                </label><br>
+                <button type="submit">Login</button>
+                <p>or</p>
+                <a href="#">Forgot your password?</a>
             </fieldset>
         </form>
-        <table>
-            <caption>물량</caption>
-            <col style="width: 80px">
-            <colgroup span="2" style="width: 150px"></colgroup>
-            <col style="width: 100px">
-            <thead>
-                <tr>
-                    <th>번호</th>
-                    <th>상품명</th>
-                    <th>수량</th>
-                    <th>가격</th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <th>총금액</th>
-                    <th colspan="3">6,500원</th>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>콜라</td>
-                    <td>1개</td>
-                    <td>1,500원</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>사이다</td>
-                    <td>2개</td>
-                    <td rowspan="2">1,000원</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>탄산수</td>
-                    <td>3개</td>
-                </tr>
-            </tbody>        
-        </table>
+        <div>
+            <h3>목차</h3>
+            <ol>
+                <li>
+                    <a href="#">역사</a>
+                    <ol>
+                        <li><a href="#">개발</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
     </body>
 </html>
