@@ -9,49 +9,31 @@
     <body>
         <form>
             <fieldset>
-                <legend>기본 정보</legend>
-                <p>
-                    <label for="userid">아이디</label>
-                    <input type="text" id="userid">
-                </p>
-                <p>
-                    <label for="passwd">패스워드</label>
-                    <input type="password" id="passwd">
-                </p>
+                <legend>좋아하는 과일</legend>
+                <input type="checkbox" id="banana" name="banana" value="banana">
+                <label for="banana">banana</label><br>
+                <input type="checkbox" id="apple" name="apple" value="apple" checked>
+                <label for="apple">apple</label><br>
             </fieldset>
             <fieldset>
-                <legend>선택 정보</legend>
-                <p>
-                    <label for="age">나이</label>
-                    <input type="number" id="age">
-                </p>
-                <p>
-                    <label for="recommender">추천인</label>
-                    <input type="text" id="recommender">
-                </p>
+                <legend>개인정보</legend>
+                <input type="tel" placeholder="전화번호를 입력해 주세요.">
+                <button type="submit">제출</button>
+                <button type="reset">초기화</button>
             </fieldset>
-            <fieldset>
-                <legend>블로그 글쓰기</legend>
-                <p>
-                    <label for="title">제목
-                        <input type="text" id="title" name="title">
-                    </label>
-                </p>
-                <p>
-                    <label for="desc">내용
-                        <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
-                    </label>
-                </p>
-            </fieldset>
-            <select name="city" id="city">
-                <optgroup label="서울시">
-                    <option value="강북구">강북구</option>
-                    <option value="강남구">강남구</option>
-                </optgroup>
-                <optgroup label="성남시">
-                    <option value="분당구">분당구</option>
-                </optgroup>
-            </select>
         </form>
+        <table>
+            <caption>물량</caption>
+            <tr>
+                <th>번호</th>
+                <th>상품명</th>
+                <th>수량</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>콜라</td>
+                <td>1개</td>
+            </tr>
+        </table>
     </body>
 </html>
