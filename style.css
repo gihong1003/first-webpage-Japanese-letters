@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+/*#lookaround{
+    color: green;
+}*/
+.red{
+    color: red;
+}
+.blue{
+    color:blue;
+}
+a[href]{
+    color: aqua;
+}
+div p{
+    color: forestgreen;
+}
