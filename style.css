@@ -1,18 +1,18 @@
-h1{
-    color: red;
+p{
+    text-align: center;
 }
-/*#lookaround{
-    color: green;
-}*/
-.red{
-    color: red;
+#title{
+
 }
-.blue{
-    color:blue;
+.box#title{
+color: blue;
 }
-a[href]{
-    color: aqua;
+section div{
+
 }
-div p{
-    color: forestgreen;
+label+input{
+
+}
+a[href="https://www.naver.com"] span{
+
 }
